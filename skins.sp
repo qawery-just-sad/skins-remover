@@ -14,9 +14,9 @@ public Plugin myinfo = {
 public void OnPluginStart()
 {
 	RegConsoleCmd("sm_knife", Command_prepare, "Go KYS");
-    RegConsoleCmd("sm_glove", Command_prepare, "Go KYS");
-    RegConsoleCmd("sm_gloves", Command_prepare, "Go KYS");
-    RegConsoleCmd("sm_ws", Command_prepare, "Go KYS");
+    	RegConsoleCmd("sm_glove", Command_prepare, "Go KYS");
+    	RegConsoleCmd("sm_gloves", Command_prepare, "Go KYS");
+    	RegConsoleCmd("sm_ws", Command_prepare, "Go KYS");
 }
 
 public Action Command_prepare(int client, int args)
